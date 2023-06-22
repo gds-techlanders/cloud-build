@@ -3,16 +3,16 @@ steps:
 - name: 'list-files'
   script: ls -l
 
-- name: 'Build'
+- name: 'build'
   script: |
     #!/usr/bin/env bash
     echo "Build Started"
     echo "Build done"
 
-- name: 'Test'
+- name: 'test'
   script: echo "Tests running"
   
-- name: 'Deployment'
+- name: 'deployment'
   script: |
     #!/usr/bin/env bash
     echo "Deployment Started"
