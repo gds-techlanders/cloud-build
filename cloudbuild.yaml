@@ -1,20 +1,20 @@
 steps:
 
-- name: 'list-files'
+- name: 'ubuntu:latest'
   script: |
     #!/usr/bin/env bash
     ls -l
 
-- name: 'build'
+- name: 'ubuntu:latest'
   script: |
     #!/usr/bin/env bash
     echo "Build Started"
     echo "Build done"
 
-- name: 'test'
+- name: 'Debian'
   script: echo "Tests running"
   
-- name: 'deployment'
+- name: 'centos:7'
   script: |
     #!/usr/bin/env bash
     echo "Deployment Started"
