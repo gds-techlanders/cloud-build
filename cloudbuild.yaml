@@ -1,7 +1,9 @@
 steps:
 
 - name: 'list-files'
-  script: ls -l
+  script: |
+    #!/usr/bin/env bash
+    ls -l
 
 - name: 'build'
   script: |
