@@ -7,7 +7,7 @@ steps:
   script: |
     #!/usr/bin/env bash
     echo "Build Started"
-	echo "Build done"
+    echo "Build done"
 	
 - name: 'Test'
   script: echo "Tests running"
@@ -16,4 +16,4 @@ steps:
   script: |
     #!/usr/bin/env bash
     echo "Deployment Started"
-	echo "Deployment done"
+    echo "Deployment done"
