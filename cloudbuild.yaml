@@ -11,7 +11,7 @@ steps:
     echo "Build Started"
     echo "Build done"
 
-- name: 'Debian'
+- name: 'centos:7'
   script: echo "Tests running"
   
 - name: 'centos:7'
