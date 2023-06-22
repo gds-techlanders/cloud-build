@@ -1,6 +1,6 @@
 steps:
 
-- name: 'List files'
+- name: 'list-files'
   script: ls -l
 
 - name: 'Build'
