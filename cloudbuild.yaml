@@ -1,0 +1,19 @@
+steps:
+
+- name: 'List files'
+  script: ls -l
+
+- name: 'Build'
+  script: |
+    #!/usr/bin/env bash
+    echo "Build Started"
+	echo "Build done"
+	
+- name: 'Test'
+  script: echo "Tests running"
+  
+- name: 'Deployment'
+  script: |
+    #!/usr/bin/env bash
+    echo "Deployment Started"
+	echo "Deployment done"
